@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'MyFirstPlugin'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 32
 
     defaultConfig {
         applicationId "com.magicbluepenguin.pluginsample"
@@ -22,10 +22,6 @@ android {
 
     String dimen = "palette"
     flavorDimensions dimen
-    productFlavors {
-//        reds { dimension dimen }
-        greens { dimension dimen }
-    }
 }
 
 dependencies {
