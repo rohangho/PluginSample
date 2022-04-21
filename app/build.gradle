@@ -22,6 +22,10 @@ android {
 
     String dimen = "palette"
     flavorDimensions dimen
+    productFlavors {
+        reds { dimension dimen }
+        greens { dimension dimen }
+    }
 }
 
 dependencies {
